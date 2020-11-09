@@ -1,7 +1,3 @@
-# Calamity
-Calamity is a Remote Administration Tool (RAT) written in Python using HTTP as a C&amp;C
-
-
 <p align="center"><img src="https://github.com/MarkoKosmajac/Calamity/blob/main/images/calamity.gif" alt="Calamity" width="350" height="80" style="border-radius: 2px;"></p>
 
 <p align="center">
