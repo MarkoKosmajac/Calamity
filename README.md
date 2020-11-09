@@ -22,7 +22,7 @@
 
 
 # About Calamity
-Calamity is a Remote Administration Tool (RAT) written in Python using HTTP as a C&amp;C
+Calamity is a Remote Administration Tool (RAT) written in Python using HTTP as a C&amp;C.
 
 # Instructions
 Run the flask server on your machine.
