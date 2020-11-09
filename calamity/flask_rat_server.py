@@ -6,8 +6,6 @@ app = Flask(__name__)
 #Start as statuscode 89 --> wait for command
 VARx = 98;
 
-#Flask server with a fake facebook clone
-
 @app.route('/')
 def hello():
     return "Facebook could not load correcly, please try again in 5 minutes or click here: https://www.facebook.com/"

