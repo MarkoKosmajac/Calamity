@@ -33,7 +33,9 @@ Calamity is a facebook clone, working with some fake approutes.
  - <img src="https://img.shields.io/badge/GET-/changeFacebookFriends-red?&style=flat-square" alt="Method Get"> Renders form to change statuscode/command variable
  - <img src="https://img.shields.io/badge/POST-/FacebookAddStatusFriend-lightblue?&style=flat-square" alt="Method Post"> Post to change to statuscode/command variable
  - <img src="https://img.shields.io/badge/POST-/FacebookAddStatus-lightblue?&style=flat-square" alt="Method Post"> Post to change to statuscode/command variable
+
 <br>
+
 Instructions to run on the client should be placed in update.py at the bottom:
  - Some basic instructions were added as a default e.g: dir, whoami, ipconfig, ...
  - Statuscode 98 means 'Do Nothing & Wait for a change'
