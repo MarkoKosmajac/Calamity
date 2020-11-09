@@ -25,14 +25,15 @@
 Calamity is a Remote Administration Tool (RAT) written in Python using HTTP as a C&amp;C
 
 # Instructions
-Run the flask server on your server.
+Run the flask server on your machine.
+<br>
 Calamity is a facebook clone, working with some fake approutes.
  - <img src="https://img.shields.io/badge/POST-/facebook-lightblue?&style=flat-square" alt="Method Post"> Saves all output from the client to a file on your server
  - <img src="https://img.shields.io/badge/GET-/facebookfriends-red?&style=flat-square" alt="Method Get"> Displays the current statuscode/command variable
  - <img src="https://img.shields.io/badge/GET-/changeFacebookFriends-red?&style=flat-square" alt="Method Get"> Renders form to change statuscode/command variable
  - <img src="https://img.shields.io/badge/POST-/FacebookAddStatusFriend-lightblue?&style=flat-square" alt="Method Post"> Post to change to statuscode/command variable
  - <img src="https://img.shields.io/badge/POST-/FacebookAddStatus-lightblue?&style=flat-square" alt="Method Post"> Post to change to statuscode/command variable
-
+<br>
 Instructions to run on the client should be placed in update.py at the bottom:
  - Some basic instructions were added as a default e.g: dir, whoami, ipconfig, ...
  - Statuscode 98 means 'Do Nothing & Wait for a change'
@@ -41,6 +42,7 @@ Instructions to run on the client should be placed in update.py at the bottom:
 
 # Features
 You are free to add any feature you want to this remote administration tool.
+<br>
 I have added 3 default ones:
  - Collect Google Chrome Passwords
  - Collect all WiFi Passwords
